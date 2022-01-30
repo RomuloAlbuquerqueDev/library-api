@@ -1,0 +1,275 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.div-body{
+	height: 700px;
+	width: 80%;
+	margin: auto;
+	border: 1px solid transparent;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div-header{
+	width: 100%; 
+	margin: auto;
+	background-color: white;
+	height: 30%;
+
+}
+.div-title{
+	width: 100%;
+	margin: auto;
+	background-color: rgb(0, 64, 128);
+	height: 45%;
+	border: 2px solid transparent;
+}
+.div-subtitle{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: rgb(0, 64, 128);
+	height: 25%;
+	border: 2px solid transparent;
+	letter-spacing: 2px;
+}
+.div-title-menu{
+	width: 100%;
+	margin: auto;
+	background-color: none;
+	height: 30%;
+	border-top: 2px solid transparent;
+}
+.div-title h1{
+	color: white;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 44px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.div-container-menu{
+	width: 100%;
+	margin: auto;
+	border: 1px solid transparent;
+	height: 40%;
+	display: flex;
+}
+.div-title-h3{
+	border: 1px solid transparent;
+	padding-top: 3%;
+}
+.div-title-h3 h3{
+	text-align: center;
+	color: black;
+}
+.div-menu{
+	width: 25%;
+	height: 100%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid white;
+	text-align: center;
+	padding-top: 1.7%;
+	margin-bottom: 0;
+}
+.div-menu h2{
+	font-size: 18px;
+	border: 1px solid transparent;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+/* link que ainda não foi visitado */
+a:link {
+   color: white;
+   text-decoration: none;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: white;
+}
+
+/* mouse over */
+a:hover {
+    color: white;
+}
+
+/* link selecionado */
+a:active {
+    color: white;
+}
+.div-main{
+	display: flex; 
+	background-color: white; 
+	border: 2px solid transparent;
+	width: 100%; 
+	margin: auto; 
+	margin-top: 0;
+}
+.div-main-2{
+	height: 60%;
+}
+.div-welcome{
+	height: 100%;
+	border: 1px solid transparent;
+}
+.div-welcome h1{
+	margin-top: 15%;
+	color: rgb(0, 64, 128);
+}
+.div-main-column{
+	background-color: white;
+	background-position: center;
+	background-size: cover; 
+	height: 100%; 
+	width: 100%;
+	margin: auto;
+	margin-top: 0;
+	text-align: center;
+	border: 2px solid transparent;
+}
+.div-img{
+	width: 100%;
+	height: 100%;
+	border: 2px solid transparent;
+	background-image: url(img/Bibliotecas_1-foto.png);
+	background-size: cover;
+}
+.div-img img{
+	height: 100%;
+	width: 100%;
+}
+.div-form{
+	width: 50%;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 2px solid transparent;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: left;
+	color: white;
+}
+.div-form-login{
+	width: 45%;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 2px solid transparent;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: left;
+	color: white;
+}
+
+#emailHelp{
+	color: rgb(181, 191, 193);
+}
+.div-form button{
+	width: 100%;
+}
+.div-log-cad-pass{
+	width: 50%;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 2px solid transparent;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: left;
+	color: white;
+}
+.div-form-update{
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 1px solid transparent;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: left;
+	color: white;
+}
+.div-form-flex{
+	display: flex;
+	border: 1px solid transparent;
+}
+.div-input-flex{
+	border: 1px solid transparent;
+	width: 70%;
+}
+.div-button-flex{
+	border: 1px solid transparent;
+	margin-left: 2%;
+}
+.div-input-flex-50{
+	border: 1px solid transparent;
+	width: 50%;
+	margin: 1%;
+}
+.div-links-flex-right{
+	border: 1px solid transparent;
+	width: 50%;
+	margin: 0;
+	text-align: right;
+}
+.div-links-flex-left{
+	border: 1px solid transparent;
+	width: 50%;
+	margin: 0;
+	text-align: left;
+}
+.insira-dados{
+	text-align: center;
+	font-size: 22px;
+	border: 1px solid transparent;
+	padding: 0;
+	color: white;
+}
+.div-table{
+	width: 90%;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 1px solid transparent;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: left;
+	color: white;
+}
+#find{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin-top: 1%;
+}
+#read{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin-top: 1%;
+}
+.div-footer{
+	color: white;
+	width: 100%;
+	height: 15%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid transparent;
+	margin: auto;
+	text-align: center;
+	padding-top: 3.2%;
+	font-size: 16px;
+}
